@@ -14,22 +14,6 @@ This project demonstrates the **Factory Method Design Pattern** in the context o
 
 In this implementation, we use the **Factory Method** pattern to create different types of **Healthcare Services**. Each type of healthcare service (like **General Consultation**, **Specialist Consultation**, **Emergency Care**) is created using a factory, and the client can request these services without needing to know the exact class used.
 
----
-
-### **Folder Structure**
-src/main/java/com/healthcare/ 
-        ├── client/ │ 
-            ├── HealthcareClient.java 
-        ├── factory/ │ 
-            ├── HealthcareServiceFactory.java 
-            ├── GeneralConsultationFactory.java 
-            ├── SpecialistConsultationFactory.java 
-            ├── EmergencyCareFactory.java 
-       ├── services/ │ 
-            ├── HealthcareService.java 
-            ├── GeneralConsultation.java  
-            ├── SpecialistConsultation.java  
-            ├── EmergencyCare.java
 ### **Key Components**
 - **HealthcareService**: An abstract class or interface defining a common service.
 - **Concrete Services**: `GeneralConsultation`, `SpecialistConsultation`, and `EmergencyCare`, which implement `HealthcareService`.
