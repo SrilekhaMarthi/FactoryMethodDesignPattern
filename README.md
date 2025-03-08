@@ -32,13 +32,13 @@ In this implementation, we use the **Factory Method** pattern to create differen
        mvn exec:java -Dexec.mainClass="com.healthcare.client.HealthcareClient"
    
 ### **Benefits of the Factory Method Pattern**
-**Decoupling**: The client code doesn't need to know the specific class that is created. It only interacts with the factory interface.
-**Flexibility**: You can add new types of healthcare services (like PediatricConsultation) without changing the client code.
-**Single Responsibility**: The creation logic is separated from the rest of the code, making it easier to manage.
+- **Decoupling**: The client code doesn't need to know the specific class that is created. It only interacts with the factory interface.
+- **Flexibility**: You can add new types of healthcare services (like PediatricConsultation) without changing the client code.
+- **Single Responsibility**: The creation logic is separated from the rest of the code, making it easier to manage.
 
 ### **Cons**
-**Increased Complexity**: If there are too many variations of products, the number of factory classes can grow, increasing complexity.
-**Requires Extra Classes**: More classes are needed (factories, concrete factories), which could make the design more complicated than necessary for small projects.
+- **Increased Complexity**: If there are too many variations of products, the number of factory classes can grow, increasing complexity.
+- **Requires Extra Classes**: More classes are needed (factories, concrete factories), which could make the design more complicated than necessary for small projects.
 
 
 
