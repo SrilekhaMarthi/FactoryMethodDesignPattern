@@ -1,0 +1,9 @@
+com\healthcare\factory\GeneralConsultationFactory.class
+com\healthcare\services\HealthcareService.class
+com\healthcare\factory\EmergencyCareFactory.class
+com\healthcare\services\EmergencyCare.class
+com\healthcare\services\SpecialistConsultation.class
+com\healthcare\client\HealthcareClient.class
+com\healthcare\factory\HealthcareServiceFactory.class
+com\healthcare\services\GeneralConsultation.class
+com\healthcare\factory\SpecialistConsultationFactory.class
